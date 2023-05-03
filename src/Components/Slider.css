@@ -1,4 +1,20 @@
 .Slider {
-  background-color: #202020;
+  background-color: #dfdfdf;
   height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-section > div {
+  text-align: center;
+}
+
+.slider-section__title {
+  font-size: 2rem;
+  color: #141414;
+}
+
+.slider-section > div > img {
+  width: 200px;
 }
