@@ -1,5 +1,6 @@
 import React from 'react';
 import './MainSection.css';
+import imgOne from '../assets/imgs/';
 
 const MainSection = () => {
   return (
@@ -14,7 +15,7 @@ const MainSection = () => {
             clientes.
           </div>
           <div>
-            <img src="https://imagenesmelas" alt="imagenes" />
+            <img src={imgOne} alt="imagenes" />
           </div>
         </div>
         <div className="mainsection-services">
