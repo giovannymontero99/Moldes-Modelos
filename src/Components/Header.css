@@ -3,21 +3,32 @@
   position: relative;
   top: 0;
   width: 100%;
+  background-color: #070913;
 }
 .header-section {
-  background-color: #070913;
   display: flex;
-  width: 100%;
-  position: fixed;
+  width: 50%;
+  position: absolute;
   height: 4rem;
   right: 0;
   align-items: center;
   justify-content: space-evenly;
 }
+
+.header-section div:first-child > a {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-section div:first-child > a:hover {
+  background-color: transparent;
+}
+
 .header-section a {
   font-size: 14px;
   padding: 9px 16px;
-  border: 1px solid transparent;
   border-radius: 8px;
   transition-duration: 0.35s;
 }

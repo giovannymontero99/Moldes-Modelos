@@ -1,12 +1,15 @@
 import React from 'react';
 import './Header.css';
+import logo from '../assets/logo.svg';
 
 const Header = () => {
   return (
     <header className="Header">
       <div className="header-section">
-        <div>
-          <a href="#inicio">Logo</a>
+        <div className="header-section-logo-section">
+          <a href="#inicio">
+            <img src={logo} alt="logo" />
+          </a>
         </div>
         <div>
           <a href="#servicios">Servicios</a>
