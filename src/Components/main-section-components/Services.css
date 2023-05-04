@@ -21,9 +21,7 @@
 
 .servicios-container__description {
   padding: 3rem;
-  background: linear-gradient(90deg, #eef5fc, #61a7f1, #eef5fc);
-  background-clip: text;
-  color: transparent;
+  color: #fefefe;
   font-size: 1.2vw;
   text-align: justify;
 }
