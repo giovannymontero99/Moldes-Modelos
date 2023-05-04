@@ -4,7 +4,7 @@ import logo from '../assets/logo.svg';
 
 const Header = () => {
   return (
-    <header className="Header">
+    <header className="Header" id="header">
       <div className="header-section">
         <div className="header-section-logo-section">
           <a href="#inicio">inicio</a>
