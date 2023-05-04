@@ -1,0 +1,13 @@
+.About {
+  padding: 15rem 10%;
+  background-color: #dfdfdf;
+}
+
+.about-section {
+  font-size: 3vh;
+  text-align: justify;
+}
+.about-section h3 {
+  text-align: center;
+  margin: 3rem;
+}

@@ -1,0 +1,42 @@
+.Servicios {
+  background: linear-gradient(#212d3a, #08121d);
+  padding: 15rem 10%;
+  position: relative;
+}
+.servicios-title {
+  font-size: 7vh;
+  position: absolute;
+  top: 0;
+  padding: 3rem;
+  font-weight: 500;
+  color: #529cec;
+}
+
+.servicios-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-row-gap: 15rem;
+}
+
+.servicios-container__description {
+  padding: 3rem;
+  background: linear-gradient(90deg, #eef5fc, #61a7f1, #eef5fc);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.2vw;
+  text-align: justify;
+}
+.servicios-container__imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.servicios-container__imgs > img {
+  width: 100%;
+  filter: brightness(70%);
+  transition-duration: 0.25s;
+}
+.servicios-container__imgs > img:hover {
+  filter: brightness(100%);
+}
