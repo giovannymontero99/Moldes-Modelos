@@ -3,3 +3,7 @@
   color: #fefefe;
   height: 10rem;
 }
+
+.gmailLogo > div > img {
+  width: 36px;
+}
