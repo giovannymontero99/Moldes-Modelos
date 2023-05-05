@@ -7,6 +7,7 @@ import './MainSection.css';
 import About from './main-section-components/About';
 import Services from './main-section-components/Services';
 import ScrollUp from './main-section-components/ScrollUp';
+import Contacto from './main-section-components/Contacto';
 
 const MainSection = () => {
   return (
@@ -15,6 +16,7 @@ const MainSection = () => {
         <Services />
         <About />
         <ScrollUp />
+        <Contacto />
       </div>
     </>
   );
