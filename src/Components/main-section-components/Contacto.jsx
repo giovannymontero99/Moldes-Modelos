@@ -6,6 +6,7 @@ import './Contacto.css';
  */
 import whatsappLogo from '../../assets/logos/whatsapp.svg';
 import gmailLogo from '../../assets/logos/gmail.svg';
+import locationLogo from '../../assets/logos/location.svg';
 
 const Contacto = () => {
   return (
@@ -21,6 +22,12 @@ const Contacto = () => {
           <img src={gmailLogo} alt="gmail logo" />
         </div>
         <div>modelarte2020@gmail.com</div>
+      </div>
+      <div className="locationLogo">
+        <div>
+          <img src={locationLogo} alt="location logo" />
+        </div>
+        <div>Calle 72A #78-39, Bogotá D.C</div>
       </div>
     </footer>
   );

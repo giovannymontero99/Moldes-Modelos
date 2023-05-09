@@ -1,11 +1,17 @@
 import React from 'react';
 import './Services.css';
+
+/**
+ * Imagenes
+ */
+
 import imgPlastOne from '../../assets/imgs/plast.jpeg';
 import imgPlastTwo from '../../assets/imgs/plast2.jpeg';
 import imgPlastThree from '../../assets/imgs/plast3.jpeg';
-import imgPlastFour from '../../assets/imgs/plast5.jpeg';
+import imgPlastFour from '../../assets/imgs/plast4.jpeg';
+
 import imgAlumOne from '../../assets/imgs/alum.jpeg';
-import imgAlumTwo from '../../assets/imgs/alum5.jpeg';
+import imgAlumTwo from '../../assets/imgs/alum2.jpeg';
 import imgAlumThree from '../../assets/imgs/alum3.jpeg';
 import imgAlumFour from '../../assets/imgs/alum4.jpeg';
 

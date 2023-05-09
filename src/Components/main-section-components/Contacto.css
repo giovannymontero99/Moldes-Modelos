@@ -2,6 +2,13 @@
   background-color: #0e0e0e;
   color: #fefefe;
   height: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Contacto > div {
+  text-align: center;
 }
 
 .gmailLogo > div > img {
