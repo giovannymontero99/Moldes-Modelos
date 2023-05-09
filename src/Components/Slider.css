@@ -9,6 +9,7 @@
 .banner {
   position: absolute;
   filter: brightness(20%);
+
 }
 .banner > img {
   object-fit: cover;
