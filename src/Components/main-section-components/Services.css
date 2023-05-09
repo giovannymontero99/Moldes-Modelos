@@ -1,6 +1,6 @@
 .Servicios {
   background: linear-gradient(#212d3a, #08121d);
-  padding: 15rem 10%;
+  padding: 15rem 3%;
   position: relative;
 }
 .servicios-title {
@@ -37,4 +37,10 @@
 }
 .servicios-container__imgs > img:hover {
   filter: brightness(100%);
+}
+
+@media (max-width: 1024px) {
+  .Servicios {
+    padding: 10rem 3%;
+  }
 }

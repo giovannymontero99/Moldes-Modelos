@@ -42,7 +42,7 @@ const Services = () => {
         </div>
         <div className="servicios-container__description">
           <span>Moldes & Modelos</span> desde sus inicios ha elaborado mas de
-          100 piezas únicas que nos ha permitido adaptarnos a las necesidades de
+          500 piezas únicas que nos ha permitido adaptarnos a las necesidades de
           nuestros clientes y especializarnos en la creación de moldes para
           inyección de plásticos y poliestireno para diferentes sectores
           industriales.
