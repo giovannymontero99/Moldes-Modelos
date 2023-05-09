@@ -10,8 +10,8 @@
   position: absolute;
   filter: brightness(20%);
 }
-.banner > image {
-  height: 100%;
+.banner > img {
+  object-fit: cover;
 }
 .slider-section {
   z-index: 1500;
