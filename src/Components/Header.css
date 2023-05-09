@@ -4,6 +4,7 @@
   top: 0;
   width: 100%;
   background-color: #070913;
+  z-index: 2000;
 }
 .header-section {
   display: flex;

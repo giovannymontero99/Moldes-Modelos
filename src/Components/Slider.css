@@ -6,13 +6,24 @@
   justify-content: center;
 }
 
+.banner {
+  position: absolute;
+  filter: brightness(20%);
+}
+.banner > image {
+  height: 100%;
+}
+.slider-section {
+  z-index: 1500;
+}
+
 .slider-section > div {
   text-align: center;
 }
 
 .slider-section__title {
   font-size: 2rem;
-  color: #141414;
+  color: #fefefe;
 }
 
 .slider-section > div > img {
