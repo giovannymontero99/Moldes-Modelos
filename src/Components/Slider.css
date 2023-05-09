@@ -1,5 +1,5 @@
 .Slider {
-  background-color: #dfdfdf;
+  background-color: #000000;
   height: 90vh;
   display: flex;
   align-items: center;
@@ -9,7 +9,8 @@
 .banner {
   position: absolute;
   filter: brightness(20%);
-
+  width: 100%;
+  overflow: hidden;
 }
 .banner > img {
   object-fit: cover;

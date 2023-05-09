@@ -6,6 +6,11 @@ const Header = () => {
   return (
     <header className="Header" id="header">
       <div className="header-section">
+        <div class="hamburger hamburger--elastic">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </div>
         <div className="header-section-logo-section">
           <a href="#inicio">inicio</a>
         </div>
