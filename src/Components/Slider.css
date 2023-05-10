@@ -13,7 +13,7 @@
   overflow: hidden;
 }
 .banner > img {
-  object-fit: cover;
+  object-fit: contain;
 }
 .slider-section {
   z-index: 1500;
