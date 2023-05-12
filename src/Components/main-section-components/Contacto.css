@@ -14,3 +14,9 @@
 .gmailLogo > div > img {
   width: 36px;
 }
+
+@media (max-width: 1080px) {
+  .Contacto > div {
+    font-size: 1.5vh;
+  }
+}
