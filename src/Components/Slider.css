@@ -8,6 +8,8 @@
 
 .banner {
   position: absolute;
+  display: flex;
+  justify-content: center;
   filter: brightness(20%);
   width: 100%;
   overflow: hidden;
